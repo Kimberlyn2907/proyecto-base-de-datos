@@ -1,0 +1,11 @@
+    CREATE DATABASE EJEMPLO
+CREARE TABLE DEPARTAMENTO 
+
+CREATE TABLE EMPLEADO (
+id int not null primary key,
+nombre nvarchar (80),
+trabajaen int not null,
+foreing key
+references departemento(id)
+)
+insert into departamento
