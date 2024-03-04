@@ -1,5 +1,7 @@
     CREATE DATABASE EJEMPLO
-CREARE TABLE DEPARTAMENTO 
+CREAtE TABLE DEPARTAMENTO (
+
+)
 
 CREATE TABLE EMPLEADO (
 id int not null primary key,
@@ -8,4 +10,7 @@ trabajaen int not null,
 foreing key
 references departemento(id)
 )
-insert into departamento
+insert into departamento (id,nombre)
+values (1,'ventas'),(2,'sistemas'),(3,'RH')
+
+ 
